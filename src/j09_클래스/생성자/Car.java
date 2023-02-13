@@ -11,6 +11,12 @@ public class Car {
 		this.color = color;
 	}
 	
+	void showInfo() {
+		System.out.println("회사 : " + company);
+		System.out.println("모델 : " + model);
+		System.out.println("색상 : " + color);
+	}
+	
 	
 	
 	
